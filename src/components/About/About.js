@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+
+class About extends Component {
+  render() {
+    return (
+      <div id="fh5co-main">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2">
+              <h2>About</h2>
+              <div className="fh5co-spacer fh5co-spacer-sm" />
+              <p>
+                <img src="images/img_14.jpg" alt="Free HTML5 template by FREEHTML5.co" className="img-rounded img-responsive" style={{margin: 'auto'}}/></p>
+              <p style = {{textAlign: "justify"}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default About;
